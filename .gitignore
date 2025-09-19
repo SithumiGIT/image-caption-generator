@@ -1,0 +1,53 @@
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Dataset and large files (DO NOT UPLOAD THE DATASET TO GITHUB)
+data/
+*.pth
+*.pt
+*.h5
+*.tar.gz
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+
+# Environment variables (never commit secrets!)
+.env
+.env.local
+.env.production
+
+# React build directory
+frontend/build/
+node_modules/ 
